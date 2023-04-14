@@ -1,0 +1,280 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header {
+  width: auto;
+  height: 780px;
+  background-image: url("image/header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+}
+.barNavigation {
+  display: flex;
+}
+.navigation {
+  display: flex;
+  align-items: space-around;
+  gap: 50px;
+  font-size: 18px;
+  padding-top: 50px;
+  padding-left: 600px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.logo {
+  padding-left: 150px;
+  padding-top: 45px;
+}
+.Welcome {
+  color: white;
+  display: flex;
+  font-size: 70px;
+  justify-content: center;
+  padding-top: 200px;
+}
+.starsLogo {
+  display: flex;
+  justify-content: center;
+}
+.presentation {
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding-top: 30px;
+}
+.presentation p {
+  font-size: 20px;
+  text-align: center;
+}
+.BienvenueMassif {
+  background-color: white;
+  display: flex;
+  height: 700px;
+  width: auto;
+  justify-content: center;
+}
+.imageMontagne {
+  padding-top: 120px;
+}
+.articleMontagne {
+  padding-top: 120px;
+  padding-left: 100px;
+}
+h1 {
+  font-size: 40px;
+}
+p {
+  padding-top: 50px;
+}
+.buttonMontagne {
+  margin-top: 50px;
+  height: 40px;
+  width: 180px;
+  border: 1px solid black;
+}
+.buttonMontagne a {
+  color: black;
+  padding: 10px;
+}
+.buttonMontagne img {
+  padding-left: 10px;
+}
+/* -------------------------------------------------------------*/
+.chambres {
+  height: 700px;
+  width: auto;
+  background-color: #d4f1d4;
+}
+.chambres h2 {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 35px;
+}
+.chambres p {
+  text-align: center;
+  padding-top: 20px;
+}
+.chambres p {
+  text-align: center;
+  color: #2d5187;
+}
+.imagesChambres {
+  display: inline-flex;
+  justify-content: space-between;
+  gap: 40px;
+  padding-left: 470px;
+  padding-top: 50px;
+}
+.Prix {
+  height: 100px;
+  width: 982px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 450px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.Prix p {
+  color: black;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*------------------------------------------------------------------*/
+.NosServices {
+  height: 600px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  background-color: white;
+}
+.NosServices h3 {
+  font-size: 35px;
+  position: absolute;
+  left: 45%;
+  margin-top: 50px;
+}
+.NosServices .Piscine {
+  height: 300px;
+  width: 302px;
+  border: 1px solid #2d5187;
+  margin-top: 150px;
+  border-radius: 0 0 0 15px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.NosServices .Piscine .titre1 {
+  font-size: 25px;
+}
+.NosServices .Wifi {
+  height: 300px;
+  width: 302px;
+  border: 1px solid #2d5187;
+  margin-top: 150px;
+  border-radius: 0 0 0 15px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.NosServices .Wifi .titre2 {
+  font-size: 25px;
+}
+.NosServices .Restaurant {
+  height: 300px;
+  width: 302px;
+  border: 1px solid #2d5187;
+  margin-top: 150px;
+  border-radius: 0 0 0 15px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.NosServices .Restaurant .titre3 {
+  font-size: 25px;
+}
+.Hébergement {
+  height: 400px;
+  width: auto;
+  background-image: url("image/hebergement.jpg");
+  background-repeat: no-repeat;
+  display: flex;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+.Hébergement .texte {
+  color: white;
+  font-size: 30px;
+  display: flex;
+  position: absolute;
+}
+.Hébergement .buttonDécouvrir {
+  display: flex;
+  height: 50px;
+  width: 150px;
+  justify-content: center;
+  background-color: #28abb9;
+  border-radius: 5px;
+  align-items: center;
+  position: absolute;
+  margin-top: 100px;
+}
+footer {
+  height: 600px;
+  width: auto;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+footer .entête {
+  position: absolute;
+  text-align: center;
+  margin-top: 50px;
+}
+footer .entête h4 {
+  font-size: 30px;
+}
+footer .entête p {
+  color: #2d5187;
+  padding-top: 15px;
+}
+footer .commentaires {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+footer .guillementBas {
+  position: absolute;
+  padding-left: 400px;
+  padding-top: 450px;
+}
+footer .prenom1 {
+  position: absolute;
+  padding-top: 400px;
+  padding-left: 40px;
+  color: #2d5187;
+}
+footer .com1 {
+  margin-top: 200px;
+  height: 300px;
+  width: 480px;
+  background-color: #a8dda8;
+  border-radius: 0 0 25px 0;
+  padding-top: 50px;
+}
+footer .com1 .guillemetsHaut {
+  padding-top: 40px;
+  padding-left: 40px;
+}
+footer .com1 p {
+  padding-left: 40px;
+}
+footer .com2 {
+  margin-top: 200px;
+  height: 300px;
+  width: 480px;
+  background-color: #a8dda8;
+  border-radius: 0 0 25px 0;
+  padding-top: 50px;
+}
+footer .com2 .GMH {
+  padding-top: 40px;
+  padding-left: 40px;
+}
+footer .com2 p {
+  padding-left: 40px;
+}
+footer .mike {
+  position: absolute;
+  margin-top: 130px;
+}
+footer .Edward {
+  position: absolute;
+  margin-left: 510px;
+  margin-top: 130px;
+}
